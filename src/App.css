@@ -1,0 +1,94 @@
+.container {
+  max-width: 700px;
+  margin:0 auto;
+}
+
+.flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.left-line-break {
+  flex-grow: 1;
+  background-color: #696969;
+  margin-left: 70px;
+  margin-right: 25px;
+}
+
+.right-line-break {
+  flex-grow: 1;
+  background-color: #696969;
+  margin-right: 70px;
+  margin-left: 25px;
+}
+
+.margin-h {
+  margin: 0px, 10px;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+  font-weight: 700;
+}
+
+.center {
+  text-align: center;
+}
+
+.margin-top {
+  margin-top: 5px;
+}
+
+.circle-img {
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.search-bar {
+  width: 200px;
+  border: 2px solid ;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.blue {
+  background-color:#2185d0;
+}
+
+.red {
+  background-color: #db2828;
+}
+
+.button {
+  width: 80px;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  margin: 7.5px;
+  margin-top: 0px;
+  color: #F8F8FF;
+  font-weight: bold;
+}
+
+.content {
+  padding-left: 15px;
+  padding-bottom: 80px;
+}
+
+.title {
+  font-weight: bold;
+}
+
+.git-url {
+  font-weight: normal;
+  color: #505050;
+}
+
+.updated {
+  color: #B8B8B8;
+}
+
+.link {
+  text-decoration: none;
+  color: #2185d0
+}
